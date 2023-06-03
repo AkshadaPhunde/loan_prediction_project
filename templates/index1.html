@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Approval Prediction System</title>
+</head>
+<body>
+    <style>
+        body{
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu1Sb0l2wS1GZRnB2M-23HQgaiQE_-QsxZa_F9SPy0kt0x2Ep3UUS3OPUOPgpRQOpehQo&usqp=CAU");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-color: aquamarine;
+        }
+</style>
+</style>
+</head>
+<body>
+  
+</head>
+    <h1 style='color: brown;'><b>Loan Status Prediction System </b></h1>
+    <form method="GET" action ="/prediction">
+    
+            <label><b>Credit_policy:</b></label>
+            <input type = "text" name = "credit_policy">
+            </select>
+
+            <br>
+            <br>
+
+            <label><b>Int_rate:</b></label>
+            <input type = "text" name = "int_rate">
+            </select>
+
+            <br>
+            <br>
+
+            <label><b>Installment:</b></label>
+            <input type = "text" name = "installment">
+            </select>
+
+            <br>
+            <br>
+
+            <label><b>Log_annual_inc:</b></label>
+            <input type = "text" name = "log_annual_inc">
+            </select>
+
+            <br>
+            <br>
+
+            <label></label><b>DTI:</b></label>
+            <input type = "text" name = "dti">
+            </select>
+
+            <br>
+            <br>
+         
+            <label><b>Fico:</b></label>
+            <input type = "text" name = "fico">
+            </select>
+
+            <br>
+            <br>
+
+            <label><b>Days_with_cr_line:</b></label>
+            <input type = "text" name = "days_with_cr_line">
+            </select>
+
+            <br>
+            <br>
+
+            <label><b>Revol_bal:</b></label>
+            <input type = "text" name = "revol_bal">
+            </select>
+
+            <br>
+            <br>
+
+            <label><b>Revol_util:</b></label>
+            <input type = "text" name = "revol_util">
+            </select>
+
+            <br>
+            <br>
+
+            <label><b>Inq_last_6mths:</b></label>
+            <input type = "text" name = "inq_last_6mths">
+            </select>
+
+            <br>
+            <br>
+
+            <label><b>Delinq_2yrs:</b></label>
+            <input type = "text" name = "delinq_2yrs">
+            </select>
+
+            <br>
+            <br>
+
+            <label><b>Pub_rec:</b></label>
+            <input type = "text" name = "pub_rec">
+            </select>
+
+            <br>
+            <br>
+
+            <label><b>Not_fully_paid:</b></label>
+            <input type = "text" name = "not_fully_paid">
+            </select>
+
+            <br>
+            <br>
+
+            <label><b>Purpose:</b> </label>
+            <label for = "purpose">
+            <select name = "purpose" id="purpose">
+                    <option value = "all_other">all_other</option>
+                    <option value = "credit_card">credit_card</option>
+                    <option value = "debt_consolidation">debt_consolidation</option>
+                    <option value = "educational">educational</option>
+                    <option value = "home_improvement">home_improvement</option>
+                    <option value = "major_purchase">major_purchase</option>
+                    <option value = "small_business">small_business</option>
+        
+            </select>
+
+            <br>
+            <br>
+
+
+            <br>
+            <b><input type = "submit" value = "SUBMIT"></b>
+
+            <br>
+            <p> <b>YOU HAVE NOT PAID COMPLETE LOAN </b> </p>
+    
+        </form>
+</body>
+</html>
